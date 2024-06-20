@@ -1,0 +1,27 @@
+[
+  {
+    "basicInfo": {
+      "nickname": "Ashiq",
+      "fullName": "Md Shoriful Islam Ashiq",
+      "email": "mdsiaofficial@gmail.com",
+      "about" : "After admiting myself in BSc in Mathematics in 2018, I lost my pace of study and gaining knowledge. Then I quit myself as a Mathematics student. In 2022 i got admited to CSE in City University. And Here I'm now, back in track to travel in Software Industry"
+    },
+    "basicTitles": [
+      "Competitive Programmer",
+      "MERN Stack",
+      "Operating System Enthusiastic"
+    ],
+    "education": [
+      {"City University" : "BSc in Computer Science & Engineering"},
+      {"Bangla College" : "BSc in Mathematics"}
+    ],
+    "skills": {
+      "programmingLanguages": ["C/C++", "JavaScript"],
+      "frameworks": ["React"],
+      "databases": [],
+      "operatingSystems": ["Windows", "Linux"]
+    },
+    "projects": {},
+    "experience": {}
+  }
+]

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import data from "../assets/data.json"
 const About = () => {
   return (
     <div className='flex flex-col justify-center items-center my-10'>
@@ -12,7 +12,7 @@ const About = () => {
 
       <section className=' max-w-[43rem]
       '>
-        <p>After admiting myself in BSc in Mathematics in 2018, I lost my pace of study and gaining knowledge. Then I quit myself as a Mathematics student. In 2022 i got admited to CSE in City University. And Here I'm now, back in track to travel in Software Industry</p>
+        <p></p>
       </section>
     </div>
   )

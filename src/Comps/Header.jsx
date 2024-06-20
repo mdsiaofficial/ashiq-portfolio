@@ -1,5 +1,10 @@
 import React from 'react'
 import ashiqicon from "../assets/ashiq.png";
+import { PiXLogoBold } from 'react-icons/pi';
+import { PiLinkedinLogoBold } from 'react-icons/pi';
+import { PiYoutubeLogoBold } from 'react-icons/pi';
+import { PiGithubLogoBold } from 'react-icons/pi';
+
 const Header = () => {
   return (
     <div className='flex flex-col gap-5 justify-center items-center'>
@@ -28,7 +33,25 @@ const Header = () => {
       </nav>
       <p className='text-base
                       md:text-base'><q>
-        I love to solve problem's and analytical thinking</q></p>
+          I love to solve problem's and analytical thinking</q></p>
+
+      {/* social */}
+      <div className='flex gap-10'>
+
+        <a href="https://github.com/mdsiaofficial">
+          <PiGithubLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10'/>
+        </a>
+        <a href="https://x.com/mdsiaofficial">
+          <PiXLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10'/>
+
+        </a>
+        <a href="https://linkedin.com/in/mdsiaofficial">
+          <PiLinkedinLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10'/>
+        </a>
+        <a href="https://youtube.com/@mdsiaofficial">
+          <PiYoutubeLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10'/>
+        </a>
+      </div>
     </div>
   )
 }
