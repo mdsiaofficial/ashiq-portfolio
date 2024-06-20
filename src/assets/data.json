@@ -12,8 +12,16 @@
       "Operating System Enthusiastic"
     ],
     "education": [
-      {"City University" : "BSc in Computer Science & Engineering"},
-      {"Bangla College" : "BSc in Mathematics"}
+      {
+        "uni": "City University Bangladesh",
+        "program" : "BSc in Computer Science & Engineering",
+        "year" : "2022 - running"
+      },
+      {
+        "uni": "Govt Bangla College",
+        "program" : "BSc in Mathematics",
+        "year" : "2018 - 2022"
+      }
     ],
     "skills": {
       "programmingLanguages": ["C/C++", "JavaScript"],
