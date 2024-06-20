@@ -3,10 +3,10 @@ import ashiqicon from "../assets/ashiq.png";
 const Header = () => {
   return (
     <div className='flex flex-col gap-5 justify-center items-center'>
-      <nav className='flex justify-center items-center'>
+      <nav className='flex justify-center items-center gap'>
 
         {/* title info */}
-        <section className='flex flex-col gap-3'>
+        <section className='flex flex-col'>
           <h1 className=' text-4xl font-bold
                         md:text-6xl md:font-extrabold'>
             Hi, I'm {`Ashiq`} 👋</h1>
