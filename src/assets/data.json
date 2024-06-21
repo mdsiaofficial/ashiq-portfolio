@@ -4,23 +4,23 @@
       "nickname": "Ashiq",
       "fullName": "Md Shoriful Islam Ashiq",
       "email": "mdsiaofficial@gmail.com",
-      "about" : "As a MERN stack developer, I have a strong passion for building scalable and efficient web applications. With a solid foundation in JavaScript, I have honed my skills in MongoDB, Express, React, and Node.js to deliver high-quality solutions. My experience with MERN stack has allowed me to work on a wide range of projects, from simple web applications to complex enterprise-level systems. I'm always eager to take on new challenges and explore the latest technologies to stay ahead in the ever-evolving tech landscape."
+      "about": "As a MERN stack developer, I have a strong passion for building scalable and efficient web applications. With a solid foundation in JavaScript, I have honed my skills in MongoDB, Express, React, and Node.js to deliver high-quality solutions. My experience with MERN stack has allowed me to work on a wide range of projects, from simple web applications to complex enterprise-level systems. I'm always eager to take on new challenges and explore the latest technologies to stay ahead in the ever-evolving tech landscape."
     },
     "basicTitles": [
       "Competitive Programmer",
-      "MERN Stack",
-      "Operating System Enthusiastic"
+      "MERN Stack Developer",
+      "Operating System Enthusiast"
     ],
     "education": [
       {
         "uni": "City University Bangladesh",
-        "program" : "BSc in Computer Science & Engineering",
-        "year" : "2022 - running"
+        "program": "BSc in Computer Science & Engineering",
+        "year": "2022 - running"
       },
       {
         "uni": "Govt Bangla College",
-        "program" : "BSc in Mathematics",
-        "year" : "2018 - 2022"
+        "program": "BSc in Mathematics",
+        "year": "2018 - 2022"
       }
     ],
     "skills": {
@@ -37,7 +37,7 @@
         "link": "https://ashiq-devv.vercel.app",
         "github": "https://github.com/mdsiaofficial/personal-portfolio",
         "techStack": ["React", "JavaScript", "HTML/CSS"],
-        "image": "../src/assets/p1.png"
+        "image": "https://i.ibb.co/vJVwPYk/p1.png"
       },
       "project2": {
         "title": "Positivus Digital Marketing",
@@ -46,7 +46,7 @@
         "link": "https://positivus-frontend-react.vercel.app/",
         "github": "https://github.com/mdsiaofficial/Positivus-Frontend-react",
         "techStack": ["React", "JavaScript", "HTML/CSS"],
-        "image": "../src/assets/p2.png"
+        "image": "https://i.ibb.co/V2TxgVY/p2.png"
       },
       "project3": {
         "title": "Humanize on React",
@@ -55,11 +55,40 @@
         "link": "https://humanize-frontend-design-react.vercel.app/",
         "github": "https://github.com/mdsiaofficial/Humanize-Frontend-Design-React",
         "techStack": ["React", "JavaScript", "HTML/CSS"],
-        "image": "../src/assets/p3.png"
+        "image": "https://i.ibb.co/9tKBBD6/p3.png"
       }
-
-
     },
-    "experience": {}
+    "experiences": [
+      {
+        "title": "Frontend Developer",
+        "company": "Positivus Digital Marketing",
+        "date": "Oct 2019 - Nov 2021",
+        "responsibilities": "Developed multiple projects using React, JavaScript, HTML/CSS",
+        "image": "https://i.ibb.co/SBJBTT3/atomic.png"
+      }
+    ],
+    "contests": [
+      {
+        "title": "ACM ICPC - 2023",
+        "date": "Oct, 2023",
+        "location": "City University Bangladesh",
+        "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students. ",
+        "logo": "https://i.ibb.co/74Cx1KX/icpc.png"
+      }, 
+      {
+        "title": "ACM ICPC - 2022",
+        "date": "Mar, 2023",
+        "location": "City University Bangladesh",
+        "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students.",
+        "logo": "https://i.ibb.co/74Cx1KX/icpc.png"
+      },      
+      {
+        "title": "23rd Intra University Programming Contest",
+        "date": "Oct, 2022",
+        "location": "City University",
+        "description": "Annual Programming Contest of algorithmic programming for students.",
+        "logo": "https://i.ibb.co/pQw9xhj/cityuni.png"
+      }
+    ]
   }
 ]

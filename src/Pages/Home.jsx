@@ -6,6 +6,7 @@ import Education from '../Comps/Education'
 import WorkExperience from '../Comps/WorkExperience'
 import Projects from '../Comps/Project'
 import Footer from '../Comps/Footer'
+import Contests from '../Comps/Contests'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Projects/>
       <WorkExperience/>
       <Education />
+      <Contests/>
       <Footer/>
     </div>
   )

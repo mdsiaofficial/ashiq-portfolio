@@ -26,7 +26,7 @@ const Header = () => {
 
         {/* picture or logo */}
         <section className=''>
-          <img src={ashiqicon} alt="Ashiq" className='w-[8rem] md:w-[10rem] h-auto rounded-full border-2' />
+          <img src={ashiqicon} alt="Ashiq" className='w-[8rem] md:w-[10rem] h-auto rounded-full border-2 shadow-xl' />
         </section>
       </nav>
       <p className='text-base

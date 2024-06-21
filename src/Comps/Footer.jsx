@@ -1,6 +1,6 @@
 import React from 'react'
 import { BiHome, BiLogoBlogger } from 'react-icons/bi'
-import ashiqicon from "../assets/ashiq.png";
+
 import { PiXLogoBold } from 'react-icons/pi';
 import { PiLinkedinLogoBold } from 'react-icons/pi';
 import { PiYoutubeLogoBold } from 'react-icons/pi';
@@ -8,15 +8,14 @@ import { PiGithubLogoBold } from 'react-icons/pi';
 
 const Footer = () => {
   return (
-    <div className='fixed bottom-10'>
+    <div className='fixed bottom-10 shadow-xl'>
       <div>
         <div className='flex gap-6 md:gap-10 p-1 border-4 rounded-2xl bg-zinc-100 md:opacity-30 duration-200 hover:duration-300 hover:opacity-90'>
-
-          <a href="https://github.com/mdsiaofficial" className='flex flex-col items-center justify-center'>
+          <a href="" className='flex flex-col items-center justify-center'>
             <BiHome className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 md:w-10 md:h-10 hover:scale-125 hover:transition-all hover:duration-500' />
             <p className='hidden md:block'>Home</p>
           </a>
-          <a href="https://github.com/mdsiaofficial" className='flex flex-col items-center justify-center'>
+          <a href="https://your-blog-link.com" className='flex flex-col items-center justify-center'>
             <BiLogoBlogger className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 md:w-10 md:h-10 hover:scale-125 hover:transition-all hover:duration-500' />
             <p className='hidden md:block'>My Blogs</p>
           </a>
@@ -45,4 +44,3 @@ const Footer = () => {
 }
 
 export default Footer
-
