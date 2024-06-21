@@ -7,6 +7,7 @@ import WorkExperience from '../Comps/WorkExperience'
 import Projects from '../Comps/Project'
 import Footer from '../Comps/Footer'
 import Contests from '../Comps/Contests'
+import Contact from '../Comps/Contact'
 
 const Home = () => {
   return (
@@ -19,7 +20,8 @@ const Home = () => {
       {/* <WorkExperience/> */}
       
       <Education />
-      <Contests/>
+      <Contests />
+      <Contact/>
       <Footer/>
     </div>
   )

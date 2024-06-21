@@ -27,7 +27,8 @@ const Contests = () => {
       <div className="md:container flex md:gap-3 md:max-w-[43rem] flex-col mx-auto md:px-4 py-5">
         <h2 className="text-3xl font-bold text-gray-800 mb-8">I love to take challenge</h2>
         <p className="text-gray-600 mb-4">
-          During my time in university, I attended 21+ hackathons. People from around the country would come together and build incredible things in 2-3 days. It was eye-opening to see the endless possibilities brought to life by a group of motivated and passionate individuals.
+          Throughout my university journey, I participated in over 40 online and offline contests. Additionally, I'm proud to be leading as the president of our University Competitive Programming Club - 
+          <a href="https://cpccu.club" className="text-blue-500 hover:underline"> CPCCU</a>.
         </p>
       </div>
       <div className="flex flex-wrap">
