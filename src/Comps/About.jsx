@@ -5,7 +5,7 @@ const About = () => {
   const { basicInfo } = data[0]; // Destructure to get basicInfo from the first object in the data array
 
   return (
-    <div className='flex flex-col justify-center  my-10'>
+    <div className='flex flex-col justify-center md:mx-4  my-10'>
 
       {/* Title */}
       <section className='text-left'>

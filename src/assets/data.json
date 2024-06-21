@@ -29,7 +29,37 @@
       "databases": [],
       "operatingSystems": ["Windows", "Linux"]
     },
-    "projects": {},
+    "projects": {
+      "project1": {
+        "title": "Personal Portfolio",
+        "date": "2022-6-15",
+        "description": "A personal portfolio website built with React and hosted on Vercel",
+        "link": "https://ashiq-devv.vercel.app",
+        "github": "https://github.com/mdsiaofficial/personal-portfolio",
+        "techStack": ["React", "JavaScript", "HTML/CSS"],
+        "image": "../src/assets/p1.png"
+      },
+      "project2": {
+        "title": "Positivus Digital Marketing",
+        "date": "2022-6-15",
+        "description": "A Digital Marketing Website",
+        "link": "https://positivus-frontend-react.vercel.app/",
+        "github": "https://github.com/mdsiaofficial/Positivus-Frontend-react",
+        "techStack": ["React", "JavaScript", "HTML/CSS"],
+        "image": "../src/assets/p2.png"
+      },
+      "project3": {
+        "title": "Humanize on React",
+        "date": "2022-6-15",
+        "description": "GPT for writing content",
+        "link": "https://humanize-frontend-design-react.vercel.app/",
+        "github": "https://github.com/mdsiaofficial/Humanize-Frontend-Design-React",
+        "techStack": ["React", "JavaScript", "HTML/CSS"],
+        "image": "../src/assets/p3.png"
+      }
+
+
+    },
     "experience": {}
   }
 ]
