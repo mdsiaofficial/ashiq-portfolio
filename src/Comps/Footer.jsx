@@ -8,35 +8,35 @@ import { PiGithubLogoBold } from 'react-icons/pi';
 
 const Footer = () => {
   return (
-    <div className='fixed bottom-0 '>
+    <div className='fixed bottom-10'>
       <div>
-        <div className='flex gap-10 p-3 border-4 rounded-2xl bg-slate-300 opacity-30 duration-200 hover:duration-300 hover:opacity-90'>
+        <div className='flex gap-6 md:gap-10 p-1 border-4 rounded-2xl bg-zinc-100 md:opacity-30 duration-200 hover:duration-300 hover:opacity-90'>
 
           <a href="https://github.com/mdsiaofficial" className='flex flex-col items-center justify-center'>
-            <BiHome className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500' />
-            <p>Home</p>
+            <BiHome className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 md:w-10 md:h-10 hover:scale-125 hover:transition-all hover:duration-500' />
+            <p className='hidden md:block'>Home</p>
           </a>
           <a href="https://github.com/mdsiaofficial" className='flex flex-col items-center justify-center'>
-            <BiLogoBlogger className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500' />
-            <p>My Blogs</p>
+            <BiLogoBlogger className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 md:w-10 md:h-10 hover:scale-125 hover:transition-all hover:duration-500' />
+            <p className='hidden md:block'>My Blogs</p>
           </a>
           <div className=' bg-black w-1'></div>
           <a href="https://github.com/mdsiaofficial" className='flex flex-col items-center justify-center'>
-            <PiGithubLogoBold className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500' />
-            <p>Github</p>
+            <PiGithubLogoBold className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 md:w-10 md:h-10 hover:scale-125 hover:transition-all hover:duration-500' />
+            <p className='hidden md:block'>Github</p>
           </a>
           <a href="https://x.com/mdsiaofficial" className='flex flex-col items-center justify-center'>
-            <PiXLogoBold className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500' />
+            <PiXLogoBold className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 md:w-10 md:h-10 hover:scale-125 hover:transition-all hover:duration-500' />
 
-            <p>X/Twitter</p>
+            <p className='hidden md:block'>X/Twitter</p>
           </a>
           <a href="https://linkedin.com/in/mdsiaofficial" className='flex flex-col items-center justify-center'>
-            <PiLinkedinLogoBold className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500' />
-            <p>LinkedIn</p>
+            <PiLinkedinLogoBold className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 md:w-10 md:h-10 hover:scale-125 hover:transition-all hover:duration-500' />
+            <p className='hidden md:block'>LinkedIn</p>
           </a>
           <a href="https://youtube.com/@mdsiaofficial" className='flex flex-col items-center justify-center'>
-            <PiYoutubeLogoBold className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500' />
-            <p>Youtube</p>
+            <PiYoutubeLogoBold className='border rounded-full hover:bg-blue-200 border-black w-10 h-10 md:w-10 md:h-10 hover:scale-125 hover:transition-all hover:duration-500' />
+            <p className='hidden md:block'>Youtube</p>
           </a>
         </div>
       </div>
