@@ -12,9 +12,9 @@ const Header = () => {
 
         {/* title info */}
         <section className='flex flex-col'>
-          <h1 className=' text-3xl font-bold
-                        md:text-6xl md:font-extrabold'>
-            Hi, I'm {`Ashiq`} 👋</h1>
+          <h1 className=' flex text-3xl font-bold
+                        md:text-6xl md:font-extrabold '>
+            Hi, I'm {`Ashiq`} <p className='hover:animate-bounce'>👋</p></h1>
           <h2 className='text-sm
                       md:text-lg md:font-semibold'>
             Competitive Programmer <br/>
@@ -36,18 +36,22 @@ const Header = () => {
       {/* social */}
       <div className='flex gap-10'>
 
-        <a href="https://github.com/mdsiaofficial">
-          <PiGithubLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10'/>
+        <a href="https://github.com/mdsiaofficial" className='flex flex-col items-center justify-center'>
+          <PiGithubLogoBold className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500' />
+          <p>Github</p>
         </a>
-        <a href="https://x.com/mdsiaofficial">
-          <PiXLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10'/>
+        <a href="https://x.com/mdsiaofficial" className='flex flex-col items-center justify-center'>
+          <PiXLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500'/>
 
+          <p>X/Twitter</p>
         </a>
-        <a href="https://linkedin.com/in/mdsiaofficial">
-          <PiLinkedinLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10'/>
+        <a href="https://linkedin.com/in/mdsiaofficial" className='flex flex-col items-center justify-center'>
+          <PiLinkedinLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500'/>
+          <p>LinkedIn</p>
         </a>
-        <a href="https://youtube.com/@mdsiaofficial">
-          <PiYoutubeLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10'/>
+        <a href="https://youtube.com/@mdsiaofficial" className='flex flex-col items-center justify-center'>
+          <PiYoutubeLogoBold  className='border-2 rounded-full hover:bg-blue-200 border-black w-10 h-10 hover:scale-125 hover:transition-all hover:duration-500'/>
+          <p>Youtube</p>
         </a>
       </div>
     </div>

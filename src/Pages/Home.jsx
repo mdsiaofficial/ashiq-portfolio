@@ -3,6 +3,7 @@ import Header from '../Comps/Header'
 import About from '../Comps/About'
 import Works from '../Comps/Works'
 import Education from '../Comps/Education'
+import WorkExperience from '../Comps/WorkExperience'
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
 
       <Header />
       <About />
-      <Works />
+      {/* <Works /> */}
+      <WorkExperience/>
       <Education/>
     </div>
   )
