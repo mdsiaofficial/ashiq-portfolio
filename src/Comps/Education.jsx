@@ -3,7 +3,7 @@ import data from '../assets/data.json'
 const Education = () => {
   const { education } = data[0]; // Corrected to get education from the first object in the data array
   return (
-    <div className="md:container flex md:gap-3 md:max-w-[43rem] flex-col mx-auto md:px-4 py-5">
+    <div className="md:container flex md:gap-3 md:max-w-[43rem] flex-col mx-auto md:px-4 py-5 mb-16">
       <h2 className="text-3xl font-bold text-gray-800 mb-8">Education</h2>
 
       <section className=' my-3 flex flex-col gap-8'>
