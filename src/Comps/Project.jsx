@@ -4,7 +4,7 @@ import data from '../assets/data.json';
 const ProjectCard = ({ project }) => {
   return (
     <div className=" bg-slate-300 rounded-lg shadow-xl p-6 ">
-      <img src={project.image} alt="" className="w-[16rem] border-4 hover:scale-150 hover:duration-500 mb-4"/>
+      <img src={project.image} alt="" className="w-[16rem] border-4 hover:scale-150 duration-500 hover:duration-500 mb-4"/>
       <h3 className="text-xl font-bold text-gray-800 mb-2">{project.title}</h3>
       <p className="text-gray-600 mb-4">{project.date}</p>
       <p className="text-gray-600 w-[16rem] mb-4">{project.description}</p>
