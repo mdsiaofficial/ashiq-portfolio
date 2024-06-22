@@ -8,9 +8,9 @@ import { PiGithubLogoBold } from 'react-icons/pi';
 
 const Footer = () => {
   return (
-    <div className='fixed bottom-10 shadow-xl'>
+    <div className='fixed bottom-10 shadow-xl backdrop-blur-sm rounded-2xl '>
       <div>
-        <div className='flex gap-6 md:gap-10 p-1 border-4 rounded-2xl bg-zinc-100 md:opacity-30 duration-200 hover:duration-300 hover:opacity-90'>
+        <div className='flex gap-6 md:gap-10 p-1 border-4 rounded-2xl md:opacity-30 duration-200 hover:duration-300 hover:opacity-90'>
           <a href="" className='flex flex-col items-center justify-center'>
             <BiHome className='border rounded-full hover:bg-blue-200 border-black w-6 h-6 md:w-10 md:h-10 hover:scale-125 hover:transition-all hover:duration-500' />
             <p className='hidden md:block'>Home</p>
