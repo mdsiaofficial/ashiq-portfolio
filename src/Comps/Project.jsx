@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import data from '../assets/data.json';
 
 const ProjectCard = ({ project }) => {
@@ -14,6 +14,7 @@ const ProjectCard = ({ project }) => {
             {tech}
           </span>
         ))}
+
       </div>
       <div className="flex">
         {project.link && (
