@@ -35,7 +35,7 @@
         "date": "2022-6-15",
         "description": "A personal portfolio website built with React and hosted on Vercel",
         "link": "https://ashiq-devv.vercel.app",
-        "github": "https://github.com/mdsiaofficial/personal-portfolio",
+        "github": "https://github.com/mdsiaofficial/ashiq-portfolio/",
         "techStack": ["React", "JavaScript", "HTML/CSS"],
         "image": "https://i.ibb.co/vJVwPYk/p1.png"
       },
@@ -44,7 +44,7 @@
         "date": "2022-6-15",
         "description": "A Digital Marketing Website",
         "link": "https://positivus-frontend-react.vercel.app/",
-        "github": "https://github.com/mdsiaofficial/Positivus-Frontend-react",
+        "github": "https://github.com/mdsiaofficial/Positivus-Frontend-react/",
         "techStack": ["React", "JavaScript", "HTML/CSS"],
         "image": "https://i.ibb.co/V2TxgVY/p2.png"
       },
@@ -53,7 +53,7 @@
         "date": "2022-6-15",
         "description": "GPT for writing content",
         "link": "https://humanize-frontend-design-react.vercel.app/",
-        "github": "https://github.com/mdsiaofficial/Humanize-Frontend-Design-React",
+        "github": "https://github.com/mdsiaofficial/Humanize-Frontend-Design-React/",
         "techStack": ["React", "JavaScript", "HTML/CSS"],
         "image": "https://i.ibb.co/9tKBBD6/p3.png"
       }
