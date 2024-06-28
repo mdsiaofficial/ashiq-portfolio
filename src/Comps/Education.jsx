@@ -13,6 +13,7 @@ const Education = () => {
               <div className='flex flex-col'>
                 <h1  className='text-base italic md:text-lg lg2:text-xl text-[#bd3053]'>{edu.program}</h1>
                 <h1 className='text-xl '>{edu.uni}</h1>
+                {edu.result && <p>CGPA: {edu.result}</p>}
               </div>
               <div>
                 <p>{edu.year}</p>

@@ -15,7 +15,8 @@
       {
         "uni": "City University Bangladesh",
         "program": "BSc in Computer Science & Engineering",
-        "year": "2022 - running"
+        "year": "2022 - running",
+        "result": "3.75"
       },
       {
         "uni": "Govt Bangla College",
@@ -30,6 +31,15 @@
       "operatingSystems": ["Windows", "Linux"]
     },
     "projects": {
+      "project14": {
+        "title": "CPCCU Portal",
+        "date": "2024-2-4 to Running",
+        "description": "A Club Portal for Competitive Programming Camp City University",
+        "link": "https://cpccu.club",
+        "github": "https://github.com/cpccu/cpccu/",
+        "techStack":["React JS", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+        "image": "https://i.ibb.co/n353KBb/cpccu.png"
+      },
       "project13": {
         "title": "Personal Portfolio",
         "date": "2022-6-20",
@@ -164,6 +174,13 @@
         "location": "City University Bangladesh",
         "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students. ",
         "logo": "https://i.ibb.co/74Cx1KX/icpc.png"
+      }, 
+      {
+        "title": "Meta Hacker Cup - 2023",
+        "date": "Sept, 2023",
+        "location": "Meta Coding Competitions, Facebook/Meta",
+        "description": "Hacker Cup is Meta's annual open programming competition. Open to participants around the world, we invite you to apply problem-solving and algorithmic coding skills to advance through each year’s online rounds, win prizes, and have a chance to make it to the global finals and win the grand prize.",
+        "logo": "https://i.ibb.co/y5QQwH7/metahackercup.png"
       }, 
       {
         "title": "ACM ICPC - 2022",

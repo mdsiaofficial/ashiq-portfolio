@@ -5,7 +5,7 @@ const ContestCard = ({ title, date, location, description, logo }) => {
   return (
     <div className="md:container flex md:gap-3 md:max-w-[40rem] flex-col mx-auto md:px-4 py-5 bg-white rounded-lg shadow-xl p-6 m-4 ">
       <div className="flex items-center mb-4">
-        <div className="w-16 mr-4 shadow-xl">
+        <div className="w-[8rem] mr-4 shadow-xl">
           <img src={logo} alt={title} className="w-full h-full" />
         </div>
         <div>
