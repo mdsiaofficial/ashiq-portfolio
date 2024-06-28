@@ -30,32 +30,122 @@
       "operatingSystems": ["Windows", "Linux"]
     },
     "projects": {
-      "project1": {
+      "project13": {
         "title": "Personal Portfolio",
-        "date": "2022-6-15",
-        "description": "A personal portfolio website built with React and hosted on Vercel",
+        "date": "2022-6-20",
+        "description": "A personal portfolio website built with ReactJS and Tailwind CSS",
         "link": "https://ashiq-devv.vercel.app",
         "github": "https://github.com/mdsiaofficial/ashiq-portfolio/",
-        "techStack": ["React", "JavaScript", "HTML/CSS"],
+        "techStack":["React JS", "Tailwind CSS", "JavaScript", "HTML/CSS"],
         "image": "https://i.ibb.co/vJVwPYk/p1.png"
       },
-      "project2": {
+      "project12": {
         "title": "Positivus Digital Marketing",
         "date": "2022-6-15",
         "description": "A Digital Marketing Website",
         "link": "https://positivus-frontend-react.vercel.app/",
         "github": "https://github.com/mdsiaofficial/Positivus-Frontend-react/",
-        "techStack": ["React", "JavaScript", "HTML/CSS"],
-        "image": "https://i.ibb.co/V2TxgVY/p2.png"
+        "techStack": ["React JS", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+        "image": "https://i.ibb.co/9tKBBD6/p3.png"
       },
-      "project3": {
+      "project11": {
         "title": "Humanize on React",
-        "date": "2022-6-15",
+        "date": "2022-6-12",
         "description": "GPT for writing content",
         "link": "https://humanize-frontend-design-react.vercel.app/",
         "github": "https://github.com/mdsiaofficial/Humanize-Frontend-Design-React/",
-        "techStack": ["React", "JavaScript", "HTML/CSS"],
-        "image": "https://i.ibb.co/9tKBBD6/p3.png"
+        "techStack": ["React JS", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+        "image": "https://i.ibb.co/V2TxgVY/p2.png"
+      },
+      "project10": {
+        "title": "CRUD Data Table",
+        "date": "2024-6-9",
+        "description": "A basic Data table - can Create - Read - Update - Delete data.",
+        "link": "https://crud-data-table-project-reactjs.vercel.app/",
+        "github": "https://github.com/mdsiaofficial/CRUD-data-table-project-reactjs",
+        "techStack": ["React JS","Tailwind CSS", "HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/jzypTmn/crud.png"
+      },
+      "project9": {
+        "title": "AI company Website",
+        "date": "2024-6-4",
+        "description": "A Frontend design practice.",
+        "link": "https://gpt-project-eosin.vercel.app/",
+        "github": "https://github.com/mdsiaofficial/gpt-project/",
+        "techStack": ["React JS","Tailwind CSS", "HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/zNHSfp5/gpt.png"
+      },
+      "project8": {
+        "title": "React Router Project",
+        "date": "2024-5-11",
+        "description": "A basic Practice of React Router Dom",
+        "link": "https://react-router-project-nine-kappa.vercel.app/",
+        "github": "https://github.com/mdsiaofficial/react-router-project/",
+        "techStack": ["React JS","Tailwind CSS", "HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/ZTHZMqt/reactrouter.png"
+      },
+      "project7": {
+        "title": "Analog Clock",
+        "date": "2024-4-18",
+        "description": "A basic Analog clock made for exercising.",
+        "link": "https://mdsiaofficial.github.io/Analog_Clock/",
+        "github": "https://github.com/mdsiaofficial/Analog_Clock",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/KGCptjx/analog.png"
+      },
+      "project6": {
+        "title": "Restaurant App",
+        "date": "2024-4-8",
+        "description": "A basic UI/Frontend idea of a Snacks Restaurant App.",
+        "link": "https://mdsiaofficial.github.io/Food-App/",
+        "github": "https://github.com/mdsiaofficial/Food-App",
+        "techStack": ["Tailwind CSS","HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/4R0K6gt/restaurant.png"
+      },
+      "project5": {
+        "title": "Club Portal",
+        "date": "2024-4-7",
+        "description": "A basic frontend idea of a clean UI club portal website.",
+        "link": "https://mdsiaofficial.github.io/Club-Portal/",
+        "github": "https://github.com/mdsiaofficial/Club-Portal",
+        "techStack": ["Tailwind CSS", "HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/gTCp6Wx/club.png"
+      },
+      "project4": {
+        "title": "Kanban Board App",
+        "date": "2024-3-17",
+        "description": "A Kanban Board that can add task, pause, in progress and completed. Also you can DRAG & DROP your task.",
+        "link": "https://mdsiaofficial.github.io/Kanban_Board/",
+        "github": "https://github.com/mdsiaofficial/Kanban_Board",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/vC9mrj0/kanban.png"
+      },
+      "project3": {
+        "title": "Quiz App",
+        "date": "2024-2-25",
+        "description": "This Quiz app is a basic quiz app and a small dynamic quiz app.",
+        "link": "https://mdsiaofficial.github.io/Quiz-App/",
+        "github": "https://github.com/mdsiaofficial/Quiz-App",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/4K79tqj/quiz.png"
+      },
+      "project2": {
+        "title": "Weather App",
+        "date": "2024-2-22",
+        "description": "A simple web application to check the weather of a specific city.",
+        "link": "https://mdsiaofficial.github.io/Weather-app/",
+        "github": "https://github.com/mdsiaofficial/Weather-app",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/Cz9fd34/weather.png"
+      },
+      "project1": {
+        "title": "Todo App",
+        "date": "2024-2-18",
+        "description": "A basic todo list app.",
+        "link": "https://mdsiaofficial.github.io/Todo-app-for-org/",
+        "github": "https://github.com/mdsiaofficial/Todo-app-for-org/",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "image": "https://i.ibb.co/850SYzP/todo.png"
       }
     },
     "experiences": [
