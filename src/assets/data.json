@@ -173,28 +173,32 @@
         "date": "Oct, 2023",
         "location": "City University Bangladesh",
         "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students. ",
-        "logo": "https://i.ibb.co/74Cx1KX/icpc.png"
+        "logo": "https://i.ibb.co/74Cx1KX/icpc.png",
+        "certificate": "https://i.ibb.co/Pt7wkmz/2024-ICPC-2023-Asia-Dhaka-Preli-Md-Shoriful-Islam-CHALLENGE.jpg"
       }, 
       {
         "title": "Meta Hacker Cup - 2023",
         "date": "Sept, 2023",
         "location": "Meta Coding Competitions, Facebook/Meta",
         "description": "Hacker Cup is Meta's annual open programming competition. Open to participants around the world, we invite you to apply problem-solving and algorithmic coding skills to advance through each year’s online rounds, win prizes, and have a chance to make it to the global finals and win the grand prize.",
-        "logo": "https://i.ibb.co/y5QQwH7/metahackercup.png"
+        "logo": "https://i.ibb.co/y5QQwH7/metahackercup.png",
+        "certificate": "https://i.ibb.co/fD7Jkg9/Meta-Hacker-Cup2023.jpg"
       }, 
       {
         "title": "ACM ICPC - 2022",
         "date": "Mar, 2023",
         "location": "City University Bangladesh",
         "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students.",
-        "logo": "https://i.ibb.co/74Cx1KX/icpc.png"
+        "logo": "https://i.ibb.co/74Cx1KX/icpc.png",
+        "certificate": ""
       },      
       {
         "title": "23rd Intra University Programming Contest",
         "date": "Oct, 2022",
         "location": "City University",
         "description": "Annual Programming Contest of algorithmic programming for students.",
-        "logo": "https://i.ibb.co/pQw9xhj/cityuni.png"
+        "logo": "https://i.ibb.co/pQw9xhj/cityuni.png",
+        "certificate": "https://i.ibb.co/pQYDWPx/cupc2022.png"
       }
     ]
   }

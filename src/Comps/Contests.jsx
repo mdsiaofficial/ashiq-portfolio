@@ -1,7 +1,7 @@
 import React from 'react'
 import data from '../assets/data.json'; // Import the data
 
-const ContestCard = ({ title, date, location, description, logo }) => {
+const ContestCard = ({ title, date, location, description, logo, certificate }) => {
   return (
     <div className="md:container flex md:gap-3 md:max-w-[40rem] flex-col mx-auto md:px-4 py-5 bg-white rounded-lg shadow-xl p-6 m-4 ">
       <div className="flex items-center mb-4">
@@ -15,6 +15,10 @@ const ContestCard = ({ title, date, location, description, logo }) => {
         </div>
       </div>
       <p className="text-gray-600">{description}</p>
+      <div className="w-fit mr-4 shadow-xl">
+        
+          {certificate?<img src={certificate?certificate:``} alt={title} className="w-full h-full" />: null}
+        </div>
     </div>
   );
 };
@@ -40,6 +44,7 @@ const Contests = () => {
             location={contest.location}
             description={contest.description}
             logo={contest.logo}
+            certificate={contest.certificate}
           />
         ))}
       </div>
