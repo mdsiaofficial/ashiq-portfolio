@@ -25,13 +25,15 @@
       }
     ],
     "skills": {
-      "programmingLanguages": ["C/C++", "JavaScript"],
-      "frameworks": ["React"],
-      "databases": [],
-      "operatingSystems": ["Windows", "Linux"]
+      "programmingLanguages": ["C/C++", "JavaScript", "TypeScript"],
+      "WebDev": ["Tailwind CSS", "React JS","Node JS", "Express JS", "MongoDB"],
+      "developmentTools:": ["Git", "Github"],
+      "coreCompetencies:": ["OOP", "Data Structure and Algorithm", "DBMS"],
+      "operatingSystems": ["Windows", "Linux"],
+      "problemSolvingPlatforms":["Codeforces (150+)", "LeetCode (40+)"]
     },
     "projects": {
-      "project14": {
+      "project16": {
         "title": "CPCCU Portal",
         "date": "2024-2-4 to Running",
         "description": "A Club Portal for Competitive Programming Camp City University",
@@ -39,6 +41,24 @@
         "github": "https://github.com/cpccu/cpccu/",
         "techStack":["React JS", "Tailwind CSS", "JavaScript", "HTML/CSS"],
         "image": "https://i.ibb.co/n353KBb/cpccu.png"
+      },
+      "project15": {
+        "title": "Book Store",
+        "date": "2024-2-4 to Running",
+        "description": "A MERN Application - Book Store",
+        "link": "",
+        "github": "https://github.com/mdsiaofficial/bookstore-project-mern",
+        "techStack":["React JS", "Tailwind CSS", "JavaScript", "Node JS", "Express JS", "MongoDB"],
+        "image": "https://i.ibb.co/588FMXF/bookstore.png"
+      },
+      "project14": {
+        "title": "CRUD APP MERN",
+        "date": "2024-8-10",
+        "description": "A CRUD application build following MERN technology.",
+        "link": "",
+        "github": "https://github.com/mdsiaofficial/crud-app-mern",
+        "techStack":["React JS", "Tailwind CSS", "JavaScript", "Node JS", "Express JS", "MongoDB"],
+        "image": "https://i.ibb.co/sWYTJ0v/crudapp.png"
       },
       "project13": {
         "title": "Personal Portfolio",
@@ -168,6 +188,14 @@
       }
     ],
     "contests": [
+      {
+        "title": "JavaScript Essential 1",
+        "date": "Jun, 2024",
+        "location": "",
+        "description": "Cisco Networking Academy provided JavaScript course",
+        "logo": "https://i.ibb.co/dfqYcvx/cisco.png",
+        "certificate": "https://i.ibb.co/BPsWXxb/Md-Shoriful-Islam-Java-Script-Essen-certificate.png"
+      },
       {
         "title": "ACM ICPC - 2023",
         "date": "Oct, 2023",
